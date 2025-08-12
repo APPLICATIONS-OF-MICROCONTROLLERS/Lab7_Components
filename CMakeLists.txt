@@ -1,12 +1,12 @@
 # CMakeLists.txt at root
 set(COMPONENT_SRCS
-    "components/Sensors/sensor.c"
-    "components/Display/display.c"
+    "Sensors/sensor.c"
+    "Display/display.c"
 )
 
 set(COMPONENT_ADD_INCLUDEDIRS
-    "components/Sensors"
-    "components/Display"
+    "Sensors"
+    "Display"
 )
 
 # Register all components in this directory
